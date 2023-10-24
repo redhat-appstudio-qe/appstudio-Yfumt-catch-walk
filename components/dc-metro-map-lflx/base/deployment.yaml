@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-lflx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/hacbs-release-tests/release-e2e-deploy-tenant/appstudio/dc-metro-map-lflx@sha256:6120c694d5919098bdb4b6f618351326d665f3a3272904f0b035227e1a2bc503
         name: my-nodejs
         ports:
         - containerPort: 3001
